@@ -3,7 +3,7 @@
 <h4>A modified version of "Just another minimal startpage for browsers." The GitHub theme has been applied to it and many links have been added so that it is ready to be used practically without further modifications</h4>
 </div>
 
-<img src=".github/gstartpage.gif">
+<img src=".github/current_startpage.gif">
 
 <div align="center">
 <br>
