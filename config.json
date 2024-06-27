@@ -218,11 +218,11 @@
     "squareColor": "#89929b",
     "weatherColor": "#e8e8e9"
   },
-  "timeZone": "Algeria",
+  "timeZone": "America/Los_Angeles",
   "title": "New Tab",
   "user": "Khaled",
   "weatherConf": {
-    "location": "Annaba",
+    "location": "Pune India",
     "unit": "cel"
   }
 }
