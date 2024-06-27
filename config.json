@@ -207,8 +207,8 @@
     }
   ],
   "style": {
-    "autocompleteHighlightBackgroundColor": "#3B3B3B",
-    "backgroundColor": "161b22",
+    "autocompleteHighlightBackgroundColor": "#454b51",
+    "backgroundColor": "#161b22",
     "dateColor": "#e8e8e9",
     "lineColor": "#fff",
     "messageColor": "#fff",
