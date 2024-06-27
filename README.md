@@ -16,6 +16,6 @@
 
 <br>
 <h3>
-<a href="https://github.com/deepjyoti30/startpage/wiki/Installation">Installation</a> | <a href="https://github.com/deepjyoti30/startpage/wiki/Configuration">Configuration</a> | <a href="https://github.com/deepjyoti30/startpage/wiki">Wiki</a>
+<a href="https://github.com/deepjyoti30/startpage/wiki/Installation">Installation</a> | <a href="https://github.com/khaledxbz/startpage/wiki/Configuration">Configuration</a> | <a href="https://github.com/khaledxbz/startpage/wiki">Wiki</a>
 </h3>
 </div>
