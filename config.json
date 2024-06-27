@@ -1,81 +1,228 @@
 {
-  "squares": [
-    { "name": "media",
-      "color": "red",
-      "links": [
-        { "name": "Spotify", "url": "https://open.spotify.com/" },
-        { "name": "YoutubeMusic", "url": "https://music.youtube.com/", "newTab": false },
-        { "name": "Netflix", "url": "https://netflix.com" },
-        { "name": "Youtube", "url": "https://youtube.com" }
-      ]
-    },
-    { "name": "work",
-      "color": "#26A69A",
-      "links": [
-        { "name": "Github", "url": "https://github.com" },
-        { "name": "Heroku", "url": "http://heroku.com/" },
-        { "name": "localhost", "url": "http://localhost:8000/" }
-      ]
-    },
-    { "name": "social",
-      "links": [
-        { "name": "Reddit", "url": "https://reddit.com" },
-        { "name": "Unixporn Love", "url": "https://deepjyoti30.github.io/unixporn-love/" },
-        { "name": "r/unixporn", "url": "https://www.reddit.com/r/unixporn/" },
-        { "name": "r/mk", "url": "https://www.reddit.com/r/MechanicalKeyboards/" }
-      ]
-    },
-    {
-      "name": "Others",
-      "links": [
-        {"name": "Material Colors", "url": "http://materialuicolors.co/"},
-        {"name": "Gmail", "url": "http://gmail.com/"},
-        {"name": "neo4j Local", "url": "http://localhost:7474/"},
-        {"name": "rarbg", "url": "http://rarbg.to"}
-      ]
-    }
-  ],
-  "linkInNewTab": true,
-  "title": "startpage",
-  "searchEngine":"DuckDuckGo",
-  "user": "Deepjyoti",
-  "disableMessage": false,
+  "disable24Hour": true,
   "disableDate": false,
+  "disableMessage": false,
   "disableSearchBar": false,
-  "disable24Hour": false,
-  "disableWeather": true,
-  "timeZone": "America/Los_Angeles",
-  "weatherConf": {
-    "location": "Pune India",
-    "unit": "cel"
-  },
-  "settingsIcon": false,
-  "style": {
-    "backgroundColor": "#212121",
-    "messageColor": "#fff",
-    "dateColor": "#d9d9d9",
-    "lineColor": "#fff",
-    "weatherColor": "#d9d9d9",
-    "searchColor": "#fff",
-    "searchBackgroundColor": "#2e2e2e",
-    "squareColor": "#9e9e9e",
-    "squareBackgroundColor": "#2e2e2e",
-    "autocompleteHighlightBackgroundColor": "#3B3B3B"
-  },
+  "disableWeather": false,
+  "linkInNewTab": true,
   "quickLinks": {
-    "r": "https://reddit.com",
-    "g": "https://github.com",
-    "y": "https://youtube.com",
-    "d": {
-      "URL": "https://duckduckgo.com",
-      "Search": "/?q="
-    },
     "b": "https://bing.com",
+    "d": {
+      "Search": "/?q=",
+      "URL": "https://duckduckgo.com"
+    },
+    "f": "https://facebook.com",
+    "g": "https://github.com",
     "p": "https://startpage.com",
+    "r": "https://reddit.com",
     "s": "https://stackoverflow.com",
     "w": {
-      "URL":"https://wikipedia.org/wiki",
-      "Search": "/Special:Search?search="
+      "Search": "/Special:Search?search=",
+      "URL": "https://wikipedia.org/wiki"
+    },
+    "y": "https://youtube.com"
+  },
+  "searchEngine": "Google",
+  "settingsIcon": false,
+  "squares": [
+    {
+      "color": "#7ce38b",
+      "links": [
+        {
+          "name": "Youtube",
+          "url": "https://youtube.com"
+        },
+        {
+          "name": "Reddit",
+          "url": "https://reddit.com"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "name": "Discord",
+          "url": "https://discord.com"
+        },
+        {
+          "name": "WhatsApp",
+          "url": "https://web.whatsapp.com/"
+        }
+      ],
+      "name": "Media"
+    },
+    {
+      "color": "#cea5fb",
+      "links": [
+        {
+          "name": "LinkedIn",
+          "url": "https://linkedin.com"
+        },
+        {
+          "name": "Fiverr",
+          "url": "https://fiverr.com"
+        },
+        {
+          "name": "Bento",
+          "url": "https://bento.me/khaledxbz"
+        },
+        {
+          "name": "Behance",
+          "url": "https://behance.net"
+        },
+        {
+          "name": "Dribbble",
+          "url": "https://Dribbble.com"
+        },
+        {
+          "name": "Adobe",
+          "url": "https://www.adobe.com/home"
+        }
+      ],
+      "name": "Work"
+    },
+    {
+      "color": "#ecf2f8",
+      "links": [
+        {
+          "name": "Bitwarden",
+          "url": "https://vault.bitwarden.com/#/vault"
+        },
+        {
+          "name": "Ente Auth",
+          "url": "https://auth.ente.io/auth"
+        },
+        {
+          "name": "Proton Mail",
+          "url": "https://mail.proton.me/u/0/inbox"
+        },
+        {
+          "name": "Notion",
+          "url": "https://notion.so"
+        },
+        {
+          "name": "ChatGPT",
+          "url": "https://chatgpt.com"
+        },
+        {
+          "name": "DeepL",
+          "url": "https://www.deepl.com/en/translator"
+        }
+      ],
+      "name": "Essentials"
+    },
+    {
+      "color": "#fa7970",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "name": "FMHY",
+          "url": "https://fmhy.net/"
+        },
+        {
+          "name": "Megathread",
+          "url": "https://rentry.org/megathread"
+        },
+        {
+          "name": "Braflix",
+          "url": "braflix.ru"
+        },
+        {
+          "name": "Software CSE",
+          "url": "https://cse.google.com/cse?cx=ae17d0c72fa6cbcd4"
+        },
+        {
+          "name": "Z-Library",
+          "url": "https://singlelogin.re/"
+        }
+      ],
+      "name": "Important"
+    },
+    {
+      "color": "#77bdfb",
+      "links": [
+        {
+          "name": "Drive",
+          "url": "https://drive.google.com/drive/my-drive"
+        },
+        {
+          "name": "Mail",
+          "url": "http://mail.google.com/"
+        },
+        {
+          "name": "Photos",
+          "url": "https://photos.google.com/"
+        },
+        {
+          "name": "Docs",
+          "url": "https://docs.google.com/document/u/0/"
+        },
+        {
+          "name": "Account",
+          "url": "https://myaccount.google.com/?pli=1"
+        },
+        {
+          "name": "Gemini",
+          "url": "https://gemini.google.com"
+        }
+      ],
+      "name": "Google"
+    },
+    {
+      "color": "#faa356",
+      "links": [
+        {
+          "name": "Outlook",
+          "url": "https://outlook.live.com/mail/0/"
+        },
+        {
+          "name": "Office 365",
+          "url": "https://www.office.com/?auth=1"
+        },
+        {
+          "name": "Word",
+          "url": "https://www.office.com/launch/Word/?auth=1"
+        },
+        {
+          "name": "Excel",
+          "url": "https://www.office.com/launch/Excel/?auth=1"
+        },
+        {
+          "name": "PowerPoint",
+          "url": "https://www.office.com/launch/PowerPoint/?auth=1"
+        },
+        {
+          "name": "Account",
+          "url": "https://account.microsoft.com"
+        }
+      ],
+      "name": "Microsoft"
     }
+  ],
+  "style": {
+    "autocompleteHighlightBackgroundColor": "#3B3B3B",
+    "backgroundColor": "161b22",
+    "dateColor": "#e8e8e9",
+    "lineColor": "#fff",
+    "messageColor": "#fff",
+    "searchBackgroundColor": "#21262d",
+    "searchColor": "#fff",
+    "squareBackgroundColor": "#21262d",
+    "squareColor": "#89929b",
+    "weatherColor": "#e8e8e9"
+  },
+  "timeZone": "Algeria",
+  "title": "New Tab",
+  "user": "Khaled",
+  "weatherConf": {
+    "location": "Annaba",
+    "unit": "cel"
   }
 }
